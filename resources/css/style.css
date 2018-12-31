@@ -20,10 +20,16 @@ header {
   border-bottom: 1px solid seashell;
   background-color: black;
 }
-  .logo {
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
+.headernav a{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
  }
  .logo img {
    height: 50px;
@@ -71,10 +77,14 @@ header {
   justify-content: space-around;
   align-items: center;
 }
-.image-content{
-  border: 1px solid seashell;
-}
 
+/* Lower Pair Of middle Images*/
+.middle-images1 {
+  width:640px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .middle-images img{
   height: 200px;
   width: 300px;
@@ -95,22 +105,17 @@ header {
    background-image: url("../images/locations.jpg");
  }
 
- /* Needed for Structure Only*/
-
-
  /*bottom Style*/
 .bottom-tiles {
   display:flex;
   justify-content: center;
   align-items: center;
   width: 1200px;
-
 }
 .bottom-content {
   width:300px;
   height:300px;
   margin-left: 20px;
-  border: 1px solid seashell;
   background-color: black;
   margin-right: 20px;
   opacity: 1;
@@ -122,12 +127,10 @@ header {
 
  /*Footer*/
  .footer {
-
    height: 250px;
  }
  .contact{
    height: 200px;
-
  }
  .copyright {
    text-align: left;
